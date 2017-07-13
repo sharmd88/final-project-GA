@@ -131,26 +131,40 @@ img {
   background-color: #f4f3f3;
 }
 
-.one {
-  margin:0 100px;
-  position: relative;
-  height: 100vh;
-  padding-top: 40px
-}
-
 .work h1 {
   padding-top: 30px
 }
 
-.one-info {
+.one, .two, .three {
+  margin:0 100px;
+  position: relative;
+  /*height: 100vh;*/
+  min-height: 680px;
+  padding-top: 60px;
+}
+
+.one-info, .three-info {
   z-index: 90;
   position: absolute;
 }
 
-.one img {
+.one img, .three img {
   z-index: 89;
   position: absolute;
   right: 0px;
+}
+
+.two-info {
+  z-index: 90;
+  position: absolute;
+  right: 0px;
+  width: 30%;
+}
+
+.two img {
+  z-index: 89;
+  position: absolute;
+  left: 0px;
 }
 
 .right li, .right h2 {
@@ -174,9 +188,9 @@ img {
 }
 
 .left ul {
-  position: absolute;
-  right: 85px;
-  max-width: 50%;
+  /*position: absolute;*/
+  text-align: right;
+  /*max-width: 50%;*/
 }
 
 .info {
