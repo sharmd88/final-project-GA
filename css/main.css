@@ -18,22 +18,20 @@ body {
   color: #ffffff;
 }
 
-.home {
+.home_img {
   background-image: url("../img/home_header.png");
   background-size: cover;
 	background-position: center;
   height: 100vh;
   width: auto;
-  background-color: #67c6cf;
-  transition: ease-in, 2s;
+  display: none
 }
 
 header {
   background-color: #67c6cf;
-  /*background-size: cover;
-	background-position: center;*/
   height: 100vh;
   /*width: auto;*/
+  /*opacity: 0;*/
 }
 
 
@@ -149,7 +147,11 @@ img {
 }
 
 .work h1 {
-  padding-top: 30px
+  padding-top: 30px;
+}
+
+#work_h1 {
+  display: none;
 }
 
 .one, .two, .three {
