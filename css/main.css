@@ -18,14 +18,24 @@ body {
   color: #ffffff;
 }
 
-header {
+.home {
   background-image: url("../img/home_header.png");
   background-size: cover;
 	background-position: center;
   height: 100vh;
   width: auto;
   background-color: #67c6cf;
+  transition: ease-in, 2s;
 }
+
+header {
+  background-color: #67c6cf;
+  /*background-size: cover;
+	background-position: center;*/
+  height: 100vh;
+  /*width: auto;*/
+}
+
 
 h1, h2, h3 {
   font-weight: 200;
@@ -105,6 +115,11 @@ img {
   height: auto;
 }
 
+/*.nav_load {
+  color: #67c6cf;
+  transition: ease-out, 4s;
+}*/
+
 .header_scroll {
   background-color: #ffcc99;
   height: 100vh;
@@ -112,17 +127,19 @@ img {
 }
 
 .ad {
+  display: none;
   position: absolute;
   left: 0px;
-  top: 33%;
+  top: 30%;
   color: #ffffff;
   margin:0 100px;
 }
 
 .design {
+  display: none;
   position: absolute;
   right: 0px;
-  top: 51%;
+  top: 48%;
   color: #ffffff;
   margin:0 100px;
 }
@@ -136,22 +153,24 @@ img {
 }
 
 .one, .two, .three {
-  margin:0 100px;
+  margin:0 150px;
   position: relative;
   /*height: 100vh;*/
-  min-height: 680px;
-  padding-top: 60px;
+  min-height: 700px;
+  padding-top: 70px;
 }
 
 .one-info, .three-info {
   z-index: 90;
   position: absolute;
+  /*margin-bottom: 0px;*/
 }
 
 .one img, .three img {
   z-index: 89;
   position: absolute;
   right: 0px;
+  margin-bottom: 0px;
 }
 
 .two-info {
@@ -159,6 +178,7 @@ img {
   position: absolute;
   right: 0px;
   width: 30%;
+  /*margin-bottom: 0px;*/
 }
 
 .two img {
