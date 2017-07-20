@@ -233,7 +233,8 @@ img {
 }
 
 .hello p {
-  margin:0 100px;
+  margin:0 400px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.5em;
 }
