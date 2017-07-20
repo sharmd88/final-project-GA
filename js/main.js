@@ -30,7 +30,7 @@ $(document).ready(function() {
       	var distanceScrolled = $(window).scrollTop();
 
 
-      	// console.log('The distance scrolled is: ' + distanceScrolled);
+      	console.log('The distance scrolled is: ' + distanceScrolled);
       	if (distanceScrolled >= 520) {
       		$('.ad, .design').fadeIn(1000);
         } else if (distanceScrolled <= 640) {
@@ -41,6 +41,14 @@ $(document).ready(function() {
           $('#work_h1').fadeIn(1000);
         } else if (distanceScrolled <= 870) {
           $('#work_h1').fadeOut(1000);
+        }
+
+        if ((distanceScrolled >= 1515) && (distanceScrolled <=3700)) {
+          $('h3 a, li a').addClass('nav_load');
+        } else if (distanceScrolled <=1510){
+          $('h3 a, li a').removeClass('nav_load');
+        } else if (distanceScrolled >= 3800){
+          $('h3 a, li a').removeClass('nav_load');
         }
 
         // workScroll();
