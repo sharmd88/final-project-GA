@@ -1,6 +1,6 @@
-var oneTextPosition = $('#one-info').offset().top - 600;
-
 $(document).ready(function() {
+
+  var oneTextPosition = $('#one-info').offset().top - 600;
 
       $('.link').on('click', function() {
           var page = $(this).attr('href'); // get the page ID from href attribute
