@@ -43,16 +43,16 @@ $(document).ready(function() {
           $('#work_h1').fadeOut(1000);
         }
 
-        if (distanceScrolled >= 3300) {
+        if (distanceScrolled >= 3400) {
       		$('.hello h1').fadeIn(1000);
         } else if (distanceScrolled <= 4000) {
           $('.hello h1').fadeOut(1000);
         }
 
-        if (distanceScrolled >= 3400) {
-          $('.hello p').fadeIn(1000);
+        if (distanceScrolled >= 3600) {
+          $('.hello p, .social-links').fadeIn(1000);
         } else if (distanceScrolled <= 4000) {
-          $('.hello p').fadeOut(1000);
+          $('.hello p, .social-links').fadeOut(1000);
         }
 
         if ((distanceScrolled >= 1515) && (distanceScrolled <=3700)) {
