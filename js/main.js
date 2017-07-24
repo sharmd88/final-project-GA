@@ -45,13 +45,13 @@ $(document).ready(function() {
 
         if (distanceScrolled >= 3400) {
       		$('.hello h1').fadeIn(1000);
-        } else if (distanceScrolled <= 4000) {
+        } else if (distanceScrolled <= 3800) {
           $('.hello h1').fadeOut(1000);
         }
 
-        if (distanceScrolled >= 3600) {
+        if (distanceScrolled >= 3500) {
           $('.hello p, .social-links').fadeIn(1000);
-        } else if (distanceScrolled <= 4000) {
+        } else if (distanceScrolled <= 3800) {
           $('.hello p, .social-links').fadeOut(1000);
         }
 
