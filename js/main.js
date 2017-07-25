@@ -34,9 +34,14 @@ $(document).ready(function() {
 
 
         	console.log('The distance scrolled is: ' + distanceScrolled);
-          var windowWidth = $( window ).width();
-
+          var windowWidth = $(window).width();
+          // console.log(windowWidth)
           if (windowWidth >= 660) {
+          // $(window).on('resize', function(){
+          // var win = $(this); //this = window
+          // console.log(win)
+          // if (win.width() >= 700) {
+
 
           	if (distanceScrolled >= 520) {
           		$('.ad, .design').fadeIn(1000);
@@ -80,7 +85,8 @@ $(document).ready(function() {
             $('#two-info').css('top', twoTextPosition - (scrolltop * .5));
             $('#three-info').css('top', threeTextPosition - (scrolltop * .5));
             // $('img').css('top', oneImgPos - (scrolltop * .2) - 1000)
-          }
+            }
+          // });
         });
 
 });
