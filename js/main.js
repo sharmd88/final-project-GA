@@ -67,11 +67,11 @@ $(document).ready(function() {
               $('.hello p, .social-links').fadeOut(1000);
             }
 
-            if ((distanceScrolled >= 1515) && (distanceScrolled <=3700)) {
+            if ((distanceScrolled >= 1515) && (distanceScrolled <=3540)) {
               $('h3 a, li a').addClass('nav_load');
             } else if (distanceScrolled <=1510){
               $('h3 a, li a').removeClass('nav_load');
-            } else if (distanceScrolled >= 3800){
+            } else if (distanceScrolled >= 3550){
               $('h3 a, li a').removeClass('nav_load');
             }
 
